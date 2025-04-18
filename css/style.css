@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4f46e5;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: -30px;
+}
+
+h2 {
+    color: #4f46e5;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+.chatbot-link {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #4f46e5;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.chatbot-link:hover {
+    background-color: #3730a3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
